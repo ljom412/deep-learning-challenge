@@ -43,6 +43,10 @@ The purpose of this challenge was to create a binary classifier using machine le
 
 - Used Rectified Linear Unit Activation Function
 
+![alt text](https://github.com/ljom412/deep-learning-challenge/blob/main/Images/first_model1.png?raw=true)
+
+![alt text](https://github.com/ljom412/deep-learning-challenge/blob/main/Images/first_model2.png?raw=true)
+
 **Most Successful Model**
 
 - Four Hidden Layers
@@ -60,6 +64,8 @@ The purpose of this challenge was to create a binary classifier using machine le
 **Were you able to achieve the target model performance?**
 
   No, the highest accuracy I was able to achieve was 66%.
+
+  ![alt text](https://github.com/ljom412/deep-learning-challenge/blob/main/Images/best_accuracy.png?raw=true)
   
 **What steps did you take in your attempts to increase model performance?**
 
