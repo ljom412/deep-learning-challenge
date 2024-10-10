@@ -8,7 +8,9 @@ The purpose of this challenge was to create a binary classifier using machine le
 
 **What variable(s) are the target(s) for your model?**
   - 'IS_SUCCESSFUL'
-  
+
+  ![alt text](https://github.com/ljom412/deep-learning-challenge/blob/main/Images/target_variable.png?raw=true)
+
 **What variable(s) are the features for your model?**
  - 'APPLICATION_TYPE'
  
