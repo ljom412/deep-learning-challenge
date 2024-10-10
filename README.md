@@ -15,6 +15,7 @@ The purpose of this challenge was to create a binary classifier using machine le
   While attempting to optimize the model to achieve the target accuracy score, I dropped the 'ASK_AMT' and 'SPECIAL_CONSIDERATIONS' variables.
 
 **Compiling, Training, and Evaluating the Model**
+
 **- How many neurons, layers, and activation functions did you select for your neural network model, and why?**
   For the initial model, I used two hidden layers, the first containing 8 nodes and the second containing 5 nodes. I used the rectified linear unit activation function. I chose this as a starting point because I did not want to make the model overly complex before seeing    how it performed the first time.
   
