@@ -21,6 +21,8 @@ The purpose of this challenge was to create a binary classifier using machine le
  - 'AFFILIATION' 
  
  - 'USE_CASE'
+
+![alt text](https://github.com/ljom412/deep-learning-challenge/blob/main/Images/feature_variables.png?raw=true)
   
 **What variable(s) should be removed from the input data because they are neither targets nor features?**
   - 'ASK_AMT'
