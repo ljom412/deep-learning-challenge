@@ -54,9 +54,11 @@ The purpose of this challenge was to create a binary classifier using machine le
 - Used Hyperbolic Tangent Activation Function
   
 **Were you able to achieve the target model performance?**
+
   No, the highest accuracy I was able to achieve was 66%.
   
 **What steps did you take in your attempts to increase model performance?**
+
   I tried several methods to increase performance: dropping columns, creating more bins for rare occurences in columns, adding more neurons and hidden layers, using different activation functions for the hidden layers, and reducing the number of epochs in the training       regimen.
 
   # SUMMARY
