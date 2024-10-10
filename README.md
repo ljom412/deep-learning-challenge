@@ -6,24 +6,57 @@ The purpose of this challenge was to create a binary classifier using machine le
 # RESULTS
 **Data Preprocessing**
 
-**- What variable(s) are the target(s) for your model?**
-  The target variable is the 'IS_SUCCESSFUL' column, which tells us whether the previous organizations were succesfful upon receiving funding from Alphabet Soup.
+**What variable(s) are the target(s) for your model?**
+  - 'IS_SUCCESSFUL'
   
-**- What variable(s) are the features for your model?**
-  The feature variables included 'APPLICATION_TYPE', 'ORGANIZATION', 'CLASSIFICATION', 'AFFILIATION', and 'USE_CASE'.
+**What variable(s) are the features for your model?**
+ - 'APPLICATION_TYPE'
+ 
+ - 'ORGANIZATION' 
+ 
+ - 'CLASSIFICATION' 
+ 
+ - 'AFFILIATION' 
+ 
+ - 'USE_CASE'
   
-**- What variable(s) should be removed from the input data because they are neither targets nor features?**
-  While attempting to optimize the model to achieve the target accuracy score, I dropped the 'ASK_AMT' and 'SPECIAL_CONSIDERATIONS' variables.
+**What variable(s) should be removed from the input data because they are neither targets nor features?**
+  - 'ASK_AMT'
+
+  - 'SPECIAL_CONSIDERATIONS'
 
 **Compiling, Training, and Evaluating the Model**
 
-**- How many neurons, layers, and activation functions did you select for your neural network model, and why?**
-  For the initial model, I used two hidden layers, the first containing 8 nodes and the second containing 5 nodes. I used the rectified linear unit activation function. I chose this as a starting point because I did not want to make the model overly complex before seeing    how it performed the first time.
+**How many neurons, layers, and activation functions did you select for your neural network model, and why?**
+ 
+ **Initial Model**
+
+- Two Hidden Layers
+
+- 8 Nodes in First Layer
+
+- 5 Nodes in Second Layer
+
+- Used Rectified Linear Unit Activation Function
+
+**Most Successful Model**
+
+- Four Hidden Layers
+
+- 20 Nodes in First Layer
+
+- 15 Nodes in Second Layer
+
+- 15 Nodes in Third Layer
+
+- 20 Nodes in Fourth Layer
+
+- Used Hyperbolic Tangent Activation Function
   
-**- Were you able to achieve the target model performance?**
+**Were you able to achieve the target model performance?**
   No, the highest accuracy I was able to achieve was 66%.
   
-**- What steps did you take in your attempts to increase model performance?**
+**What steps did you take in your attempts to increase model performance?**
   I tried several methods to increase performance: dropping columns, creating more bins for rare occurences in columns, adding more neurons and hidden layers, using different activation functions for the hidden layers, and reducing the number of epochs in the training       regimen.
 
   # SUMMARY
