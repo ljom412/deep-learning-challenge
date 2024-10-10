@@ -5,6 +5,7 @@ The purpose of this challenge was to create a binary classifier using machine le
 
 # RESULTS
 **Data Preprocessing**
+
 **- What variable(s) are the target(s) for your model?**
   The target variable is the 'IS_SUCCESSFUL' column, which tells us whether the previous organizations were succesfful upon receiving funding from Alphabet Soup.
   
