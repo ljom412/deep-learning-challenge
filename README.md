@@ -60,6 +60,10 @@ The purpose of this challenge was to create a binary classifier using machine le
 - 20 Nodes in Fourth Layer
 
 - Used Hyperbolic Tangent Activation Function
+
+![alt text](https://github.com/ljom412/deep-learning-challenge/blob/main/Images/last_model1.png?raw=true)
+
+![alt text](https://github.com/ljom412/deep-learning-challenge/blob/main/Images/last_model2.png?raw=true)
   
 **Were you able to achieve the target model performance?**
 
